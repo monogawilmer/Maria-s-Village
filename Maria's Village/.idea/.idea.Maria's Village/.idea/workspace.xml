@@ -10,10 +10,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
+            <state relative-caret-position="-945">
               <folding>
                 <marker date="1560802519400" expanded="true" signature="6:157" ph="..." />
                 <marker date="1560802519400" expanded="true" signature="237:2426" ph="{...}" />
@@ -36,16 +36,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+            <state relative-caret-position="315">
+              <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
               <folding>
-                <marker date="1560804152823" expanded="false" signature="6:78" ph="..." />
-                <marker date="1560804152823" expanded="true" signature="121:624" ph="{...}" />
-                <marker date="1560804152823" expanded="true" signature="341:362" ph="{...}" />
-                <marker date="1560804152823" expanded="true" signature="424:622" ph="{...}" />
+                <marker date="1560804765741" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560804765741" expanded="true" signature="121:652" ph="{...}" />
+                <marker date="1560804765741" expanded="true" signature="341:362" ph="{...}" />
+                <marker date="1560804765741" expanded="true" signature="424:650" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -95,6 +95,9 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -134,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560803103141</updated>
-      <workItem from="1560803136792" duration="1009000" />
+      <workItem from="1560803136792" duration="1942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1009000" />
+    <option name="totallyTimeSpent" value="1942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -197,9 +200,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding>
+            <marker date="1560804765741" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560804765741" expanded="true" signature="121:652" ph="{...}" />
+            <marker date="1560804765741" expanded="true" signature="341:362" ph="{...}" />
+            <marker date="1560804765741" expanded="true" signature="424:650" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
+        <state relative-caret-position="-945">
           <folding>
             <marker date="1560802519400" expanded="true" signature="6:157" ph="..." />
             <marker date="1560802519400" expanded="true" signature="237:2426" ph="{...}" />
@@ -217,19 +233,6 @@
             <marker date="1560802519400" expanded="true" signature="1803:2424" ph="{...}" />
             <marker date="1560802519400" expanded="true" signature="2071:2196" ph="{...}" />
             <marker date="1560802519400" expanded="true" signature="2291:2418" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <marker date="1560804152823" expanded="false" signature="6:78" ph="..." />
-            <marker date="1560804152823" expanded="true" signature="121:624" ph="{...}" />
-            <marker date="1560804152823" expanded="true" signature="341:362" ph="{...}" />
-            <marker date="1560804152823" expanded="true" signature="424:622" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -20,8 +20,8 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        camPosition = new Vector3(followObject.transform.position.x + offsetX,
-           followObject.transform.position.y,
+        camPosition = new Vector3(followObject.transform.position.x,
+           followObject.transform.position.y-(followObject.transform.position.y)/2,
             -10f);
         transform.position = camPosition;
     }
