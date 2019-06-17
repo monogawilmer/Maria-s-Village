@@ -19,21 +19,22 @@ public class Character : MonoBehaviour
 
     private bool isOnGround;
     private int saltos;
-    private AudioClip sound;
+    public AudioClip death;
+    public AudioClip  salto;
+    public AudioClip win;
+    private AudioSource playSound;
     
     // Start is called before the first frame update
     void Start()
     {
+        playSound = GetComponent<AudioSource>();
         _rigidbody = GetComponent<Rigidbody2D>();
         isOnGround = false;
         saltos = 0;
         
+
     }
 
-    private void Update()
-    {
-        
-    }
     
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -54,18 +55,13 @@ public class Character : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Hider"))
+        if (other.CompareTag("KillZone"))
         {
-            var obj = GameObject.FindWithTag("Texto");
-            if (obj != null)
-            {
-                obj.SetActive(false);
-            }
-        }
-        else if (other.CompareTag("KillZone"))
-        {
+            playSound.PlayOneShot(death, 5f);
+            System.Threading.Thread.Sleep(1000);
             Scene escena = SceneManager.GetActiveScene();
             SceneManager.LoadScene(escena.name);
+            
         }
         else if (other.CompareTag("WinZone"))
         {
@@ -83,13 +79,18 @@ public class Character : MonoBehaviour
         //saltar con un boton
         if (Input.GetButtonDown("Jump") && isOnGround)
         {
+            playSound.clip=salto;
+            playSound.PlayOneShot(salto);
             _rigidbody.AddForce(Vector2.up * jumpForce * 100f, ForceMode2D.Force);
             saltos++;
         }
         else if (isOnGround == false && saltos >0 && saltos <2 && Input.GetButtonDown("Jump"))
         { 
+            playSound.PlayOneShot(salto);
             _rigidbody.AddForce(Vector2.up * jumpForce * 100f, ForceMode2D.Force); 
             saltos++;
         }
+
+        
     }
 }
