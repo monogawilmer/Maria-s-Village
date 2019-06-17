@@ -1,7 +1,67 @@
 fileFormatVersion: 2
 guid: dc3196768374c08489a34ea3c073bd24
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5909129032007736001
+    second: Canna_0
+  - first:
+      213: -598171313071822922
+    second: Canna_1
+  - first:
+      213: 3128902255836348830
+    second: Canna_2
+  - first:
+      213: -8673424214778113321
+    second: Canna_3
+  - first:
+      213: -2578315352593388243
+    second: Canna_4
+  - first:
+      213: -3608057314625441669
+    second: Canna_5
+  - first:
+      213: -3539612452870699531
+    second: Canna_6
+  - first:
+      213: 5784401726236279042
+    second: Canna_7
+  - first:
+      213: -5334540202164641228
+    second: Canna_8
+  - first:
+      213: -907678132070950204
+    second: Canna_9
+  - first:
+      213: 5346594028894365804
+    second: Canna_10
+  - first:
+      213: -5528494440225296504
+    second: Canna_11
+  - first:
+      213: 6740505204967169174
+    second: Canna_12
+  - first:
+      213: 5332884946418465903
+    second: Canna_13
+  - first:
+      213: 818642122232310815
+    second: Canna_14
+  - first:
+      213: 8001513816411236797
+    second: Canna_15
+  - first:
+      213: -6473248718732506284
+    second: Canna_16
+  - first:
+      213: 8656137333056989420
+    second: Canna_17
+  - first:
+      213: 3373676606439135676
+    second: Canna_18
+  - first:
+      213: -6067408234854885498
+    second: Canna_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +100,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +129,473 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Canna_0
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 5683
+        width: 1012
+        height: 1110
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a6d1c5eefbffa40b017472a87a17fe
+      internalID: -5909129032007736001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_1
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 5683
+        width: 1008
+        height: 1100
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1295ba4ac9b421e4d800b7a1a5513b18
+      internalID: -598171313071822922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_2
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 5683
+        width: 1001
+        height: 1097
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00ce7f4b59f7df4f97f578e897e36c6
+      internalID: 3128902255836348830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_3
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 5683
+        width: 997
+        height: 1093
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18a72d92b606d439d313520e386310
+      internalID: -8673424214778113321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 4284
+        width: 995
+        height: 1087
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331e80cbf8020c740874386969f81f63
+      internalID: -2578315352593388243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_5
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 4284
+        width: 998
+        height: 1077
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667809b08bacb554584259d555d596a6
+      internalID: -3608057314625441669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_6
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 4284
+        width: 992
+        height: 1084
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c844f41678e7b44a8501c56cdc6eac1
+      internalID: -3539612452870699531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_7
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 4284
+        width: 995
+        height: 1092
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36c568ef0ae16f4f86a308678797dff
+      internalID: 5784401726236279042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2883
+        width: 997
+        height: 1101
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6746bedeb84f934fb2dd5ba98b96b94
+      internalID: -5334540202164641228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_9
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 2883
+        width: 995
+        height: 1111
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812082eb9c467e24f9dc87dd3ad94626
+      internalID: -907678132070950204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_10
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 2883
+        width: 995
+        height: 1101
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71958e95f213774c8d8a8905676fd3a
+      internalID: 5346594028894365804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_11
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 2883
+        width: 998
+        height: 1094
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea8605a8abeef4997fac86d7ce4b4d
+      internalID: -5528494440225296504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1485
+        width: 991
+        height: 1084
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87a5d9865a4a204c9074ad85fc74662
+      internalID: 6740505204967169174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_13
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1485
+        width: 994
+        height: 1080
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b38891e0bba8344820e6f37f52cf47
+      internalID: 5332884946418465903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_14
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 1485
+        width: 995
+        height: 1070
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b5c4178ed1f84a85e033f19a99fd1
+      internalID: 818642122232310815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_15
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 1485
+        width: 998
+        height: 1084
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7eea036b035f84c81a6ec43d53ea21
+      internalID: 8001513816411236797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_16
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 84
+        width: 998
+        height: 1089
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e1928b1c44434cb8349998ab2f51b
+      internalID: -6473248718732506284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_17
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 84
+        width: 1002
+        height: 1097
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea709540808ac04e85b3cfbf5de1075
+      internalID: 8656137333056989420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_18
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 84
+        width: 1005
+        height: 1104
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ed6e4ace9127342ab27a21a3dfc05f
+      internalID: 3373676606439135676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Canna_19
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 84
+        width: 1012
+        height: 1107
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56859735d4561814a98ae23c951c3534
+      internalID: -6067408234854885498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
