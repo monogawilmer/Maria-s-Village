@@ -19,6 +19,7 @@ public class Character : MonoBehaviour
 
     private bool isOnGround;
     private int saltos;
+    private AudioClip sound;
     
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class Character : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         isOnGround = false;
         saltos = 0;
+        
     }
 
     private void Update()
