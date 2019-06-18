@@ -74,8 +74,8 @@ public class Character : MonoBehaviour
 
     private void Update()
     {
-        anim.SetFloat("speed",Mathf.Abs(_rigidbody.velocity.x));
-        anim.SetBool("grounded",grounded);
+        //anim.SetFloat("speed",Mathf.Abs(_rigidbody.velocity.x));
+        //anim.SetBool("grounded",grounded);
     }
 
     // Update is called once per frame
