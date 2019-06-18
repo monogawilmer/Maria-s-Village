@@ -13,7 +13,7 @@ public class GameHandler : MonoBehaviour
         {
             if (health > .01f)
             {
-                health -= .01f;
+                health -= .001f;
                 healthBar.SetSize(health);
 
                 if (health < .3f)
