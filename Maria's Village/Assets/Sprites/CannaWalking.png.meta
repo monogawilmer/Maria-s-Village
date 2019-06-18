@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 1fae19e22ad3bf04587f53acfdfed71e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4082614653474220177
+    second: CannaWalking_0
+  - first:
+      213: -3142518780166805540
+    second: CannaWalking_1
+  - first:
+      213: 6997487358421591408
+    second: CannaWalking_2
+  - first:
+      213: -182487858765646345
+    second: CannaWalking_3
+  - first:
+      213: -83844516602391089
+    second: CannaWalking_4
+  - first:
+      213: -3062642253637145236
+    second: CannaWalking_5
+  - first:
+      213: 2146507563283804307
+    second: CannaWalking_6
+  - first:
+      213: -3110706134271055259
+    second: CannaWalking_7
+  - first:
+      213: 5185962184128292411
+    second: CannaWalking_8
+  - first:
+      213: -4057770427344610409
+    second: CannaWalking_9
+  - first:
+      213: -4507702062095807414
+    second: CannaWalking_10
+  - first:
+      213: -8474824367171515100
+    second: CannaWalking_11
+  - first:
+      213: 7674709183898770455
+    second: CannaWalking_12
+  - first:
+      213: -6377525876114119971
+    second: CannaWalking_13
+  - first:
+      213: 3518706556876762106
+    second: CannaWalking_14
+  - first:
+      213: 9011190628616635577
+    second: CannaWalking_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +117,389 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CannaWalking_0
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 4290
+        width: 1003
+        height: 1091
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7d9ada3c44c894b92d885687c9096a
+      internalID: 4082614653474220177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_1
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 4285
+        width: 995
+        height: 1094
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfbe44c82f5827419cffdbc09b7a0bb
+      internalID: -3142518780166805540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_2
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 4293
+        width: 990
+        height: 1080
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0709595a34cb58840aa2d8a938ee65c2
+      internalID: 6997487358421591408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_3
+      rect:
+        serializedVersion: 2
+        x: 4490
+        y: 4293
+        width: 992
+        height: 1077
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a8ffb03e6c2a142964a04ca68a3f91
+      internalID: -182487858765646345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_4
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 2885
+        width: 992
+        height: 1072
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74d3fa5dd5b1fd4090c51092709e832
+      internalID: -83844516602391089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_5
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 2890
+        width: 989
+        height: 1075
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840a75c82c0a73b42a17368a23c25581
+      internalID: -3062642253637145236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_6
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 2898
+        width: 987
+        height: 1075
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7824ed302c9534e4693f73e5f718a18d
+      internalID: 2146507563283804307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_7
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 2898
+        width: 993
+        height: 1083
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed31b49a5b1a6843ba63d8d8ec96dd1
+      internalID: -3110706134271055259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1493
+        width: 989
+        height: 1096
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c6e77c8f040c9478c0c09e9259c6c5
+      internalID: 5185962184128292411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_9
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1498
+        width: 987
+        height: 1083
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eed053477de6b49b2d182e910dbb33
+      internalID: -4057770427344610409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_10
+      rect:
+        serializedVersion: 2
+        x: 3098
+        y: 1507
+        width: 993
+        height: 1066
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7960c56e74d5583498a3a8c75e1e246f
+      internalID: -4507702062095807414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_11
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 1490
+        width: 987
+        height: 1075
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175e3b0478a4db41b138c608d899bed
+      internalID: -8474824367171515100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_12
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 98
+        width: 989
+        height: 1064
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876eb42c2def0f54283a0122d8565314
+      internalID: 7674709183898770455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_13
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 101
+        width: 992
+        height: 1053
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edd89c2399f6a64383aa80d54593b67
+      internalID: -6377525876114119971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_14
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 85
+        width: 992
+        height: 1080
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503bc188451547b4a8b017c271edc5b0
+      internalID: 3518706556876762106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaWalking_15
+      rect:
+        serializedVersion: 2
+        x: 4487
+        y: 90
+        width: 990
+        height: 1080
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e9091cfc4f14e4abc8fc5c0a500aab
+      internalID: 9011190628616635577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
