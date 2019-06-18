@@ -13,6 +13,7 @@ public class Character : MonoBehaviour
     [Header("Fuerza de salto")] [Tooltip("La fuerza debe ser una magnitud grande")]public float jumpForce;
     
     private Rigidbody2D _rigidbody;
+    private Animator anim;
     
     [HideInInspector]
     public float _distGround;
@@ -23,6 +24,7 @@ public class Character : MonoBehaviour
     public AudioClip  salto;
     public AudioClip win;
     private AudioSource playSound;
+    public bool grounded; //Para la animación del personaje.
     
     // Start is called before the first frame update
     void Start()
@@ -31,7 +33,6 @@ public class Character : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody2D>();
         isOnGround = false;
         saltos = 0;
-        
 
     }
 
@@ -69,6 +70,12 @@ public class Character : MonoBehaviour
             System.Threading.Thread.Sleep(9000);
             SceneManager.LoadScene("Titulo");
         }   
+    }
+
+    private void Update()
+    {
+        anim.SetFloat("speed",Mathf.Abs(_rigidbody.velocity.x));
+        anim.SetBool("grounded",grounded);
     }
 
     // Update is called once per frame

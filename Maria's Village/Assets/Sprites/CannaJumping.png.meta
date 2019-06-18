@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 008fcc773b4af294a846062a9dda2849
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -108427856197343023
+    second: CannaJumping_0
+  - first:
+      213: -207830426703455427
+    second: CannaJumping_1
+  - first:
+      213: -3052303948899550415
+    second: CannaJumping_2
+  - first:
+      213: -6408341389888156106
+    second: CannaJumping_3
+  - first:
+      213: 6779288179518681059
+    second: CannaJumping_4
+  - first:
+      213: 5665679073549656468
+    second: CannaJumping_5
+  - first:
+      213: 8658617768188922443
+    second: CannaJumping_6
+  - first:
+      213: 2498693389050828885
+    second: CannaJumping_7
+  - first:
+      213: -8446500336999375995
+    second: CannaJumping_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +96,242 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CannaJumping_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2931
+        width: 1007
+        height: 1058
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33bcb259f929704a9181ff8dbb62f3a
+      internalID: -108427856197343023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_1
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 2922
+        width: 1001
+        height: 1059
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2512bb285c041514a83068bb785466a1
+      internalID: -207830426703455427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_2
+      rect:
+        serializedVersion: 2
+        x: 3082
+        y: 2967
+        width: 995
+        height: 1009
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c791e830b2605a4781eb58953dde9ec
+      internalID: -3052303948899550415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1567
+        width: 991
+        height: 1007
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e1e534d758f6544a8ce86d8f5281ca
+      internalID: -6408341389888156106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_4
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 1567
+        width: 992
+        height: 1003
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb79d34b182bf85458df059297462a5b
+      internalID: 6779288179518681059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_5
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 1567
+        width: 990
+        height: 990
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fdaf78fefe9c440b634ff8744d4ef7
+      internalID: 5665679073549656468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 166
+        width: 987
+        height: 999
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b748f2ce3620d1e44a7d6b9e5abd1c39
+      internalID: 8658617768188922443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_7
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 107
+        width: 986
+        height: 1066
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4211596aedcb7844a1e7693026a69c0
+      internalID: 2498693389050828885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CannaJumping_8
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 107
+        width: 990
+        height: 1074
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58a3693d1fdbf8469684580d637f1e1
+      internalID: -8446500336999375995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
