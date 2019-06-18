@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using CodeMonkey.Utils;
 using UnityEngine.SceneManagement;
@@ -10,6 +11,13 @@ using UnityEngine.SceneManagement;
 public class GameHandler : MonoBehaviour
 {
     private float health;
+
+    public float Health
+    {
+        get { return health; }
+        set { health = value;  }
+    }
+    
     private Rigidbody2D _rigidbody;
     public AudioClip death;
     private AudioSource playSound;
@@ -45,7 +53,7 @@ public class GameHandler : MonoBehaviour
     {
         if (health <.1f)
         {
-            playSound.PlayOneShot(death, 5f);
+            playSound.PlayOneShot(death, 15f);
             System.Threading.Thread.Sleep(1000);
             Scene escena = SceneManager.GetActiveScene();
             SceneManager.LoadScene(escena.name);

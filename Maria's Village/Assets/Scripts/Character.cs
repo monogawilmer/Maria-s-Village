@@ -23,6 +23,8 @@ public class Character : MonoBehaviour
     public AudioClip death;
     public AudioClip  salto;
     public AudioClip win;
+    public GameObject barraVida;
+    [Range (0.2f,1f)] public float healAmount;
     private AudioSource playSound;
     public bool grounded; //Para la animación del personaje.
     
@@ -58,7 +60,7 @@ public class Character : MonoBehaviour
     {
         if (other.CompareTag("KillZone"))
         {
-            playSound.PlayOneShot(death, 5f);
+            playSound.PlayOneShot(death, 15f);
             System.Threading.Thread.Sleep(1000);
             Scene escena = SceneManager.GetActiveScene();
             SceneManager.LoadScene(escena.name);
@@ -66,10 +68,20 @@ public class Character : MonoBehaviour
         }
         else if (other.CompareTag("WinZone"))
         {
-            playSound.PlayOneShot(win, 10f);
+            playSound.PlayOneShot(win, 20f);
             System.Threading.Thread.Sleep(9000);
             SceneManager.LoadScene("Titulo");
-        }   
+        }
+        else if(other.CompareTag("Gafas"))
+        {
+            var gameHandler = barraVida.GetComponent<GameHandler>();
+            gameHandler.Health += healAmount;
+            if (gameHandler.Health>1f)
+            {
+                gameHandler.Health = 1f;
+            }
+            Destroy(other.gameObject);
+        }
     }
 
     private void Update()

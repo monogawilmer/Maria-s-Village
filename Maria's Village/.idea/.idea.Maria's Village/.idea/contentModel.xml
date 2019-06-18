@@ -41,6 +41,7 @@
           <e p="CheckGround.cs" t="Include" />
           <e p="GameHandler.cs" t="Include" />
           <e p="glasses.cs" t="Include" />
+          <e p="MainButton.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
           <e p="Navigator.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
