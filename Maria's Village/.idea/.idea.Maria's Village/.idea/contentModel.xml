@@ -6,10 +6,12 @@
     <e p="C:\Users\Andres Herrera\Documents\GitHub\Maria-s-Village\Maria's Village" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="line.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AutoHide.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="Character.cs" t="Include" />
+          <e p="glasses.cs" t="Include" />
           <e p="Navigator.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
         </e>
