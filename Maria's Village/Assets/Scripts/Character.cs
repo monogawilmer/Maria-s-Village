@@ -65,6 +65,8 @@ public class Character : MonoBehaviour
         }
         else if (other.CompareTag("WinZone"))
         {
+            playSound.PlayOneShot(win, 10f);
+            System.Threading.Thread.Sleep(9000);
             SceneManager.LoadScene("Titulo");
         }   
     }

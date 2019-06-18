@@ -1,14 +1,24 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CodeMonkey.Utils;
+using UnityEngine.SceneManagement;
+
+[RequireComponent(typeof(Rigidbody2D))]
 
 public class GameHandler : MonoBehaviour
 {
+    private float health;
+    private Rigidbody2D _rigidbody;
+    public AudioClip death;
+    private AudioSource playSound;
+    
     [SerializeField] private Barra healthBar;
     private void Start()
     {
-        float health = 1f;
+        playSound = GetComponent<AudioSource>();
+        health = 1f;
         FunctionPeriodic.Create(() =>
         {
             if (health > .01f)
@@ -29,5 +39,16 @@ public class GameHandler : MonoBehaviour
                 }
             }
         }, 0.03f);
+    }
+
+    private void FixedUpdate()
+    {
+        if (health <.1f)
+        {
+            playSound.PlayOneShot(death, 5f);
+            System.Threading.Thread.Sleep(1000);
+            Scene escena = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(escena.name);
+        }
     }
 }
